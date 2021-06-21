@@ -12,14 +12,17 @@ interface UserInformationProps {
   rating: number;
   description?: string;
 }
-export const UserInformation: React.FC<UserInformationProps> = (props) => {
+export const UserInformation: React.FC<UserInformationProps> = ({
+  name, picture, rating, description,
+}) => {
   return (
     <UserInformationContainer>
-      <AvatarStyled src={props.picture}> {props.name[0]} </ AvatarStyled>
-      <UserName>{props.name}</UserName>
-      <RatingStyled readOnly value={props.rating} />
-      <UserDescription >{props.description}</UserDescription >
+      <AvatarStyled src={picture}> {name}</AvatarStyled>
+      <UserName>{name}</UserName>
+      <RatingStyled readOnly value={rating} />
+      <UserDescription >{description}</UserDescription >
 
     </UserInformationContainer>
+
   )
 }

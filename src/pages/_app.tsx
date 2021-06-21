@@ -3,6 +3,8 @@ import { ThemeProvider } from '@material-ui/core'
 import { theme } from 'ui/themes/theme';
 import Head from 'next/head';
 import { Header } from 'ui/components/surfaces/Headers/Header'
+import { Footer } from 'ui/components/surfaces/Footer/Footer'
+import { AppContainer } from 'ui/styles/pages/_app.styled';
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -22,9 +24,13 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <ThemeProvider theme={theme}>
-        <Header />
-        <Component {...pageProps} />
+        <AppContainer>
+          <Header />
+          <Component {...pageProps} />
+          <Footer />
+        </AppContainer>
       </ThemeProvider>
+
     </>
   )
 
