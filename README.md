@@ -1,10 +1,8 @@
-# Podcastr NLW#5
+# Ediaristas
 
 <p align="center">
-<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/logo.svg">
+<img src="https://github.com/lcspaiva87/ediaristas/blob/main/public/img/logos/logo.svg">
 </p>
-
-
 
 <p align="center">
 <img src="https://img.shields.io/david/dev/lcspaiva87/RocketShoes?style=flat-square">
@@ -18,8 +16,8 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/gif_.gif"  width="70%" height="70%">
-<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/img.png" width="70%" height="70%">
+<img src="https://github.com/lcspaiva87/ediaristas/blob/main/public/img/cep.PNG"  width="70%" height="70%">
+<img src="https://github.com/lcspaiva87/ediaristas/blob/main/public/img/wallper.PNG" width="70%" height="70%">
 
 </p>
 
