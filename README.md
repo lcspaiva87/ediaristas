@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Podcastr NLW#5
 
-## Getting Started
+<p align="center">
+<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/logo.svg">
+</p>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+
+<p align="center">
+<img src="https://img.shields.io/david/dev/lcspaiva87/RocketShoes?style=flat-square">
+<img src="https://img.shields.io/apm/l/github">
+<img src="https://img.shields.io/github/repo-size/lcspaiva87/Podcastr-NLW-5">
+<img src="https://img.shields.io/github/languages/count/lcspaiva87/Podcastr-NLW-5">
+<img src="https://img.shields.io/github/followers/lcspaiva87?style=social">
+<img src="https://img.shields.io/github/forks/lcspaiva87/Podcastr-NLW-5?style=social">
+<img src="https://img.shields.io/github/package-json/v/lcspaiva87/Podcastr-NLW-5">
+<img src="https://img.shields.io/github/languages/top/lcspaiva87/Podcastr-NLW-5">
+</p>
+
+<p align="center">
+<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/gif_.gif"  width="70%" height="70%">
+<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/img.png" width="70%" height="70%">
+
+</p>
+
+## :rocket: Tecnologias
+
+#This project was developed using the following technologies:
+
+- [ReactJS](https://reactjs.org)
+- [Axios](https://github.com/axios/axios)
+- [Material-ui](https://material-ui.com/pt/)
+- [NextJs](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Como fazer funcionar em sua máquina
+
+```sh
+Execute esse comando para instalatar todas as dependências
+$ git clone https://github.com/lcspaiva87/ediaristas.git && cd ediaristas
+
+# Install the dependencies
+yarn
+##Link Api
+https://github.com/lcspaiva87/ApiPython
+# start the json-server api
+python manage.py runserve
+
+# start project
+yarn start
+
+## 🤔 Como contribuir
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+---
+
+Feito com ♥ by Lucas Antonio
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

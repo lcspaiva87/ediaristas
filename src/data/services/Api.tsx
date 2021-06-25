@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://ediaristas-workshop.herokuapp.com'
+const url = 'https://rocky-chamber-61000.herokuapp.com/'
 
 export const ApiService = axios.create({
   baseURL: url,

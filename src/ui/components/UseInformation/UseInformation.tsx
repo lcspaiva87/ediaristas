@@ -7,7 +7,7 @@ import {
   UserName
 } from './styled'
 interface UserInformationProps {
-  picture: string;
+  picture?: string;
   name: string;
   rating: number;
   description?: string;
@@ -17,7 +17,7 @@ export const UserInformation: React.FC<UserInformationProps> = ({
 }) => {
   return (
     <UserInformationContainer>
-      <AvatarStyled src={picture}> {name}</AvatarStyled>
+      <AvatarStyled src={picture} alt={name}></AvatarStyled>
       <UserName>{name}</UserName>
       <RatingStyled readOnly value={rating} />
       <UserDescription >{description}</UserDescription >
