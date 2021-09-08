@@ -29,7 +29,7 @@ export default function Home() {
       <SafeEnvironment />
       <PageTitle
         title={'Conheça os profissionais'}
-        subtitle={'Preencha seu endereço e veja todos os profissionais'}
+        subtitle={'Preencha seu endereço e veja todos os profissionais!'}
       />
       <Container>
 
